@@ -5,21 +5,59 @@
   align-Items: center;
   justify-Content: center;
 }
+.top-wrap-style{
+  flex-direction: column;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+}
+.input-button-style{
+  background-color: rgb(236, 234, 234);
+  display: flex;
+  padding:20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.input-wrap-style{
+  display: flex;
+  align-items: center;
+}
+.input-style{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  height: 25px;
+  margin: 0 10px 0 10px;
+}
 .addCardButton-style{
+  display: flex;
   cursor: pointer;
   border: 20px;
   color: white;
+  border-radius: 5px;
   background-color: green;
+  justify-content: flex-end;
+  padding: 10px 30px 10px 30px;
 }
-.working-wrap{
+.working-style{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+  margin-bottom: 0px;
+  
+}
+.working-wrap-style{
   display: flex;
-  flex-direction: row;
-  /* background-color: red; */
+  /* 미쳤다.. */
+  flex-wrap: wrap;     
 }
 .card-style{
-  
-  width: 200px;
-  height: 100px;
+  min-width: 200px;
+  min-height: 100px;
+ 
   border: 3px solid green;
   border-Radius: 10px;
   display: flex;
@@ -28,27 +66,42 @@
   flex-direction: column;
   margin:20px;
   padding: 10px;
+  padding-top: 0px;
+  justify-content: space-evenly;
 }
 .title-style{
   font-size: 20px;
   font-weight: bold;
-  color:red;
 }
 
 .text-style{
   font-size: 15px;
 }
 
-.button-wrap{
+.button-wrap-style{
   display: flex;
   justify-content: space-around;
 }
-.deleteButton{
-  border: 3px solid red;
+.deleteButton-style{
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 5px;
   cursor: pointer;
+  width: 90px;
 }
 
-.completeButton{
-  border: 3px solid green;
+.completeButton-style{
+  border: 2px solid green;
+  background-color: white;
+  border-radius: 5px;
   cursor: pointer;
+  width: 90px;
+}
+
+.done-style{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
