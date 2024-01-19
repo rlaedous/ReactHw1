@@ -5,8 +5,19 @@
   align-Items: center;
   justify-Content: center;
 }
-
+.addCardButton-style{
+  cursor: pointer;
+  border: 20px;
+  color: white;
+  background-color: green;
+}
+.working-wrap{
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+}
 .card-style{
+  
   width: 200px;
   height: 100px;
   border: 3px solid green;
@@ -15,13 +26,29 @@
   /* align-Items: center; */
   justify-Content: center;
   flex-direction: column;
-  
+  margin:20px;
+  padding: 10px;
+}
+.title-style{
+  font-size: 20px;
+  font-weight: bold;
+  color:red;
 }
 
+.text-style{
+  font-size: 15px;
+}
+
+.button-wrap{
+  display: flex;
+  justify-content: space-around;
+}
 .deleteButton{
   border: 3px solid red;
+  cursor: pointer;
 }
 
 .completeButton{
   border: 3px solid green;
+  cursor: pointer;
 }
